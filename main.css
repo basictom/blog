@@ -52,15 +52,28 @@ footer {
 	width: 150px;
 	margin-right: 20px;
 }
+.blog-container {
+	background-color: #fff;
+	padding: 10px;
+}
 .one {
 	border-radius: 5px;
 	background-color: #555;
 	font-family: Helvetica, sans-serif;
-	font-size: 1.1em;
+	/*font-size: 1.1em;*/
 }
 .two {
-	background-color: #666;
+	background-color: #565656;
 }
 .author {
 	text-transform: italic;
+	font-size: .8em;
 }
+
+section article:nth-of-type(2n) {
+	color: #555;
+	font-family: 'Arsenal', sans-serif;;
+}
+
+
+
