@@ -1,0 +1,79 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-family: sans-serif;
+	font-weight: normal;
+	color: #444;
+	font-size: 1.3em;
+}
+h1 {
+	font-size: 2.3em;
+	margin: 15px;
+}
+h2 {
+	font-size: 1.8em;
+	margin: 8px;
+}
+section {
+	padding: 30px 60px;
+	background-color: #888;
+	-webkit-box-shadow: 0px -8px 20px -10px rgba(102,102,102,1);
+	-moz-box-shadow: 0px -8px 20px -10px rgba(102,102,102,1);
+	box-shadow: 0px -8px 20px -10px rgba(102,102,102,1);
+}
+article {
+	padding: 20px;
+	background-color: #f3f3f3;
+	margin: 30px 0px;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(102,102,102,1);
+	-moz-box-shadow: 0px 0px 15px 0px rgba(102,102,102,1);
+	box-shadow: 0px 0px 15px 0px rgba(102,102,102,1);
+}
+header {
+	height: 150px;
+	background-image: url('http://www.pixeden.com/media/k2/galleries/93/002-subtle-light-pattern-background-texture.jpg');
+	background-repeat: repeat;
+	overflow:hidden;
+	z-index: 0;
+	text-align:center;
+	color: #333;
+}
+footer {
+	/*height: 100px;*/
+	padding: 20px 50px;
+	color: #333;
+}
+.blog-image {
+	float: left;
+	background-color: #444;
+	height: 200px;
+	width: 150px;
+	margin-right: 20px;
+}
+.blog-container {
+	background-color: #fff;
+	padding: 10px;
+}
+.one {
+	border-radius: 5px;
+	background-color: #555;
+	font-family: Helvetica, sans-serif;
+	/*font-size: 1.1em;*/
+}
+.two {
+	background-color: #565656;
+}
+.author {
+	text-transform: italic;
+	font-size: .8em;
+}
+
+section article:nth-of-type(2n) {
+	color: #555;
+	font-family: 'Arsenal', sans-serif;;
+}
+
+
+
