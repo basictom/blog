@@ -52,6 +52,15 @@ footer {
 	width: 150px;
 	margin-right: 20px;
 }
+.one {
+	border-radius: 5px;
+	background-color: #555;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.1em;
+}
+.two {
+	background-color: #666;
+}
 .author {
 	text-transform: italic;
 }
