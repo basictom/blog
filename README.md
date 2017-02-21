@@ -32,5 +32,3 @@ python -m SimpleHTTPServer or http-server
 ## Contributors
 
 1. [@basictom](https://github.com/basictom)
-
-![Blog Screen Shot](https://raw.githubusercontent.com/basictom/blog/master/screen_shot.png)
